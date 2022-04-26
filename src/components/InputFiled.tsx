@@ -17,7 +17,7 @@ const InputFiled: React.FC<Props> = ({ todo, setTodo, handleSubmit }) => {
     >
       <input
         type="text"
-        className="shaw w-full rounded-[50px] border-0 py-4 px-7 text-lg text-gray-800 shadow-cus-1 transition-all focus:shadow-cus-2 focus:outline-none"
+        className="shaw w-full rounded-[50px] border-0 py-4 px-7 text-lg text-gray-800 shadow-cus-1 transition-all duration-300 focus:shadow-cus-2 focus:outline-none"
         placeholder="Type here ...."
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
